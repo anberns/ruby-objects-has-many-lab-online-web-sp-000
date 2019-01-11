@@ -7,10 +7,12 @@ def Post
   def initialize(title)
     @title = title
     @@all << self
+    @author = nil 
   end 
   
   def self.all
     return @@all 
   end 
   
+  def 
 end
