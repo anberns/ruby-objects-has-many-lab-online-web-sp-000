@@ -12,6 +12,14 @@ def Author
     @posts << post
   end
   
+  def add_post_by_title(title)
+    post = Post.new(title)
+    post.author = self 
+    posts << post
+  end
   
-    
+  def self.post_count
+    Post.all.size 
+  end
+ 
 end
