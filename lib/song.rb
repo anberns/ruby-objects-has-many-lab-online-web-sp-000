@@ -16,10 +16,10 @@ class Song
   end
   
   def artist_name
-  if @artist != nil
-    return @artist.name
-  else 
-    return nil 
-  end
+    if @artist != nil
+      return @artist.name
+    else 
+      return nil 
+    end
   
 end
